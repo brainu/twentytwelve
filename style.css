@@ -1,0 +1,93 @@
+/*
+Theme Name: Howci
+Theme URI: http://www.howsci.com/tag/themes/
+Author: 科研动力
+Author URI: https://www.howsci.com/
+Template: twentytwelve
+Description: twentytwelve 科研动力修改子主题
+Version: 1.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: light, gray, white, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Text Domain: twentytwelve
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+font-family:"Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;/*62*/
+}
+body{ background-image:url('img/bg.png');background-repeat: repeat; background-position: top left; background-attachment: fixed;text-align:justify;text-justify:inter-ideograph;}
+.site-content article{margin-bottom:24px;margin-bottom:1.714285714rem;}
+.entry-content {word-break:break-all;word-wrap:break-word;}
+.entry-header .comments-link{margin-top:0px;margin-top:0rem;}
+.entry-content blockquote, .comment-content blockquote{font-style: normal;margin:14px auto;padding:10px;clear:both;border-left:5px solid #eee;background-color:#F8FCFE;font-size:13px;;margin:14px auto;padding:10px;clear:both;border-left:5px solid #eee;background-color:#F8FCFE;font-size:13px;}
+.entry-content pre, .comment-content pre{margin:20px 0;background:#4A4A4A;padding:10px 20px;color:#F8F8D4;}
+
+/** 评论 **/
+.comments-title{margin-bottom:1rem;margin-bottom:14px;}
+.comments-area article header{margin:0 0 1rem;margin: 0 0 14px;}
+.reply{float: right;}
+
+/** 返回 **/
+.back-to-top{position:fixed;background-color:#ebebeb;height:44px;width:44px;bottom:150px;right:15%;text-align:center;line-height:40px;border-radius:3px;}
+
+/** 侧栏 **/
+.widget widget_categories ul li{width:45%}
+
+/** 作者信息 **/
+.authorbio{background:#f1f1f1;margin:10px 0;padding:20px;}
+.authorbio p{line-height:0;}
+/** 缩略图 **/
+.thumbnail{position:relative;float:left;width:200px;height:150px;margin:0 20px 0 0;clear:both;overflow:hidden;transition-duration:.5s}
+.thumbnail a img{width:200px;height:150px;-webkit-transition:-webkit-transform .3s linear;-moz-transition:-moz-transform .3s linear;-o-transition:-o-transform .3s linear;transition:transform .3s linear;font-size: 13px}
+.thumbnail .cat{background:#c40000;position:absolute;top:0;left:0;filter:alpha(opacity=70);box-shadow:0 1px 1px rgba(0,0,0,0.1);background:0 0 rgba(216,0,0,0.7)}
+.thumbnail .cat a{color:#fff;line-height:28px;padding:0 10px}
+.type-bulletin .thumbnail{display:none}
+.thumbnail a img{animation:fade-in;animation-duration:1.2s;-webkit-animation:fade-in 1.2s}
+/** 页码 **/
+.pagination{padding:20px;background-color:#fff;text-align:center}
+.pagination ul{display:inline-block;*display:inline;*zoom:1;margin-left:0;margin-bottom:0}
+.pagination ul > li{display:inline}
+.pagination ul > li > a,.pagination ul > li > span{margin:0 1px;float:left;padding:4px 12px 3px;line-height:20px;text-decoration:none;background-color:#eee;color:#666}
+.pagination ul > li > a:hover,.pagination ul > li > a:focus{background-color:#ccc;color:#444}
+.pagination ul > .active > a,.pagination ul > .active > span{background-color:#428BCA;color:#fff}
+.pagination ul > .active > a,.pagination ul > .active > span{cursor:default}
+.pagination ul > li > span,.pagination ul > .disabled > span,.pagination ul > .disabled > a,.pagination ul > .disabled > a:hover,.pagination ul > .disabled > a:focus{color:#999999;background-color:transparent;cursor:default}
+.page-links{text-align:center;}
+.page-links a{color: #428BCA!important;}
+
+/**头部搜索 **/
+.header-search {float: right;margin-top: -70px;}
+@media (max-width: 650px) {.header-search {margin-top:5px;text-align:center;float:none;}.header-search img{height: 40%;}}
+
+/** 图标字体 **/
+@font-face{font-family:'FontAwesome';src:url('fonts/fontawesome-webfont.eot?v=4.4.0');src:url('fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'),url('fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'),url('fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'),url('fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'),url('fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.font-text{margin:0 0 0 3px}
+/** 字体33% **/
+.fa-lg{font-size:1.33333333em;line-height:0.75em;vertical-align:-15%}
+.fa-2x{font-size:2em}
+.fa-3x{font-size:3em}
+.fa-4x{font-size:4em}
+.fa-5x{font-size:5em}
+.fa-fw{width:1.28571429em;text-align:center}
+.fa-ul{padding-left:0;margin-left:2.14285714em;list-style-type:none}
+.fa-ul > li{position:relative}
+.fa-li{position:absolute;left:-2.14285714em;width:2.14285714em;top:0.14285714em;text-align:center}
+.fa-li.fa-lg{left:-1.85714286em}
+.fa-border{padding:.2em .25em .15em;border:solid 0.08em #eeeeee;border-radius:.1em}
+.fa-pull-left{float:left}
+er relative to the icon container */
+.fa-pull-right{float:right}
+.fa.fa-pull-left{margin-right:.3em}
+.fa.fa-pull-right{margin-left:.3em}
+.fa-eject:before{content:"\f052"}
+.fa-clock-o:before {content: "\f017";}
+.fa-th-large:before {content: "\f009";}
+.fa-tags:before {content: "\f02c";}
+.fa-comments-o:before{content:"\f0e6"}
+.fa-eye:before{content:"\f06e"}
+.fa-angle-double-left:before{content:"\f100"}
+.fa-angle-double-right:before{content:"\f101"}
